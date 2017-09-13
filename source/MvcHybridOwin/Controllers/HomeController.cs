@@ -23,9 +23,9 @@ namespace MvcHybridOwin.Controllers
         }
 
         [HttpPost]
-        public ActionResult Index2()
+        public ActionResult Configure()
         {
-            return View("Index");
+            return View("Configure");
         }
 
         public ActionResult About()

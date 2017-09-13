@@ -194,6 +194,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-2.2.4.intellisense.js" />
+    <Content Include="Scripts\iframeResizer.contentWindow.min.js" />
     <Content Include="Scripts\jquery-2.2.4.js" />
     <Content Include="Scripts\jquery-2.2.4.min.js" />
     <Content Include="Scripts\jquery-2.2.4.min.map" />
@@ -227,9 +228,11 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Claims.cshtml" />
     <Content Include="Views\Home\Proxy.cshtml" />
+    <Content Include="Views\Home\Configure.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Controllers\Attributes\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

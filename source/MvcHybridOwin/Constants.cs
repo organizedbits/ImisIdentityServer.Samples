@@ -29,9 +29,7 @@ namespace MvcHybridOwin
             public static readonly string[] ResponseTypes =
             {
             "code",
-            "id_token",
-            "token"
-            
+            "id_token"            
             };
 
             public static readonly string[] ScopesRequesting =

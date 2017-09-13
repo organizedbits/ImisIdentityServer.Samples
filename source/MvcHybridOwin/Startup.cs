@@ -73,11 +73,11 @@ namespace MvcHybridOwin
 
                         nid.AddClaims(context.AuthenticationTicket.Identity.Claims);
 
-                        var accessToken = new Claim("access_token", context.ProtocolMessage.AccessToken);
+                        //var accessToken = new Claim("access_token", context.ProtocolMessage.AccessToken);
 
                         var idToken = new Claim("id_token", context.ProtocolMessage.IdToken);
 
-                        nid.AddClaim(accessToken);
+                       // nid.AddClaim(accessToken);
                         nid.AddClaim(idToken);
 
                         context.AuthenticationTicket = new AuthenticationTicket(nid, context.AuthenticationTicket.Properties);
