@@ -31,13 +31,15 @@ namespace MvcHybridOwin
             "code",
             "id_token",
             "token"
-            
             };
 
             public static readonly string[] ScopesRequesting =
             {
                 "openid",
-                "offline_access",                
+                "profile",
+                "address",
+                "roles",
+                "offline_access",
                 "imisapi"
             };
 
