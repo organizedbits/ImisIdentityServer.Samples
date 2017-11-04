@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcHybridOwin", "MvcHybridOwin\MvcHybridOwin.csproj", "{DB6644DB-BB8B-4341-BDCE-B609497E6BBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoHybrid", "UmbracoHybrid\UmbracoHybrid.csproj", "{F06B4A84-7CA4-4E9E-A85D-2B5987818733}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,8 +20,17 @@ Global
 		{DB6644DB-BB8B-4341-BDCE-B609497E6BBB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DB6644DB-BB8B-4341-BDCE-B609497E6BBB}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
 		{DB6644DB-BB8B-4341-BDCE-B609497E6BBB}.Staging|Any CPU.Build.0 = Staging|Any CPU
+		{F06B4A84-7CA4-4E9E-A85D-2B5987818733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06B4A84-7CA4-4E9E-A85D-2B5987818733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06B4A84-7CA4-4E9E-A85D-2B5987818733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06B4A84-7CA4-4E9E-A85D-2B5987818733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F06B4A84-7CA4-4E9E-A85D-2B5987818733}.Staging|Any CPU.ActiveCfg = Release|Any CPU
+		{F06B4A84-7CA4-4E9E-A85D-2B5987818733}.Staging|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {430D28E5-595B-4FD8-9221-B4600F53EA8F}
 	EndGlobalSection
 EndGlobal
